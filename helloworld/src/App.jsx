@@ -2,14 +2,14 @@ import './App.css'
 import HelloWorld from './HelloWorld'
 
 function App() {
-  
+
   return (
     <div>
-      <HelloWorld text="Hello" />
-      <HelloWorld text="Ahoj" />
-      <HelloWorld text="Buenos dias" />
+      <HelloWorld text="Hello" name="Charles" />
+      <HelloWorld text="Ahoj" name="Karol" />
+      <HelloWorld text="Buenos dias" name="Carlos" />
     </div>
-    
+
   )
 }
 
