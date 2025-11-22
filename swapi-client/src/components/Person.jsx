@@ -24,6 +24,7 @@ function Person() {
       <p>Výška: {person.height}</p>
       <p>Váha: {person.mass}</p>
       <p>Barva očí: {person.eye_color}</p>
+      <p>Pohlavie: {person.gender}</p>
       <button onClick={() => navigate(-1)}>Zpět</button>
     </div>
   );
