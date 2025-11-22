@@ -6,6 +6,8 @@ function HelloWorld({text, name}) {
     
     //const {text, name} = props;
 
+    console.log("Text: " + text + ", Name: " +  name);
+
     return <h1>{text} světe! {name}</h1>
 }
 
