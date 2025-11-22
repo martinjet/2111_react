@@ -1,5 +1,8 @@
-function HelloWorld() {
-  return <h1>Ahoj světe!</h1>
+function HelloWorld(props) {
+
+    const text = props.text;
+
+    return <h1>{text} světe!</h1>
 }
 
 export default HelloWorld;

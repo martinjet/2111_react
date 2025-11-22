@@ -4,7 +4,12 @@ import HelloWorld from './HelloWorld'
 function App() {
   
   return (
-    <HelloWorld />
+    <div>
+      <HelloWorld text="Hello" />
+      <HelloWorld text="Ahoj" />
+      <HelloWorld text="Buenos dias" />
+    </div>
+    
   )
 }
 
